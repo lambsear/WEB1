@@ -3,17 +3,31 @@
 <head>
   <title>UNIST 피노키오 ☆새학기맞이 9기 신입부원 모집중☆</title>
   <meta charset="utf-8">
-  <style>
-    a{color:black}
+  <style type="text/css">
+    /* 기본 설정*/
+    a{text-decoration:none; color:#000000;}         
+    a:hover{color:#ff0000;}                     
+    /* nav tag */
+    nav ul{padding-top:10px;} /*  상단 여백 10px  */
+    nav ul li
+      {
+        display:inline; /*  세로나열을 가로나열로 변경 */
+        border-left:1px solid #999; /* 각 메뉴의 왼쪽에 "|" 표시(분류 표시) */
+        font:bold 12px Dotum; /* 폰트 설정 - 12px의 돋움체 굵은 글씨로 표시 */
+        padding:0 10px; /* 각 메뉴 간격 */
+      }
+     nav ul li:first-child{border-left:none;} /* 메뉴 분류중 제일 왼쪽의 "|"는 삭제        
   </style>
 </head>
 <body>
   <a href="index.html" title="UNIST 피노키오"><img src="https://scontent-hkg3-2.xx.fbcdn.net/v/t1.0-9/19665244_1068918273210071_9022336006430903731_n.jpg?oh=957cc37cc5b06cc29330e4e18f004572&oe=5AB5779B"></a>
-  <ul>
-    <li><a href="about.html">소개</a></li>
-    <li><a href="history.html">연혁</a></li>
-    <li><a href="activity.html">활동</a></li>
-  </ul>
+  <nav>
+    <ul>
+      <li><a href="about.html">소개</a></li>
+      <li><a href="history.html">연혁</a></li>
+      <li><a href="activity.html">활동</a></li>
+    </ul>
+  </nav>
   <h1>UNIST PINOCCHIO</h1>
   <h2>'우리가 원하는것을 무엇이든 다 만들어볼때까지'</h2>
   <p><h3>UNIST의 유일무이한 로봇동아리<h3><br> Arduino / Android ADK / AVR Studio / Atmel128 / Lego Mindstorm / Raspberry Pi / Etc.</p>
